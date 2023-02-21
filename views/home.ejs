@@ -10,7 +10,7 @@
             <%= posts[i].title %>
         </h1>
         <p>
-            <%= posts[i].content.substring(0, 100) + " ..." %> <a href="/posts/:<%= posts[i].title %>">read more</a>
+            <%= posts[i].content.substring(0, 100) + " ..." %> <a href="/posts/<%= posts[i].title %>">read more</a>
         </p>
         <% } %>
 
